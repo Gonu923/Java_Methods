@@ -1,0 +1,28 @@
+public class MyClass {
+    
+    final int a = 12, b = 23;
+    
+    void sum(){
+        int c = a + b;
+        System.out.println("Sum of "+ a + " & "+b+ " is "+c);
+    }
+    void sub(){
+        int c = b - a;
+        System.out.println("Sub of "+ a + " & "+b+ " is "+c);
+    }
+    void mul(){
+        int c = a * b;
+        System.out.println("Multiplication of "+ a + " & "+b+ " is "+c);
+    }
+     void div(){
+        double c = (double) b / a;
+        System.out.println("Division of "+ b + " by "+a+ " is "+c);
+    }
+    public static void main(String args[]) {
+        MyClass cls = new MyClass();
+        cls.sum();
+        cls.sub();
+        cls.mul();
+        cls.div();
+    }
+}
